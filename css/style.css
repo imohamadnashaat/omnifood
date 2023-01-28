@@ -56,6 +56,10 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
 * {
   padding: 0;
   margin: 0;
@@ -74,6 +78,35 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.gird {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .heading-primary {
