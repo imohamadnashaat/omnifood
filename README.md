@@ -4,5 +4,4 @@ Omnifood is a website with a responsive design that enables users to browse from
 
 Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.
 
-<img src="https://github.com/imohamadnashaat/omnifood/blob/main/img/desktop-mobile-view.jpg" width="80%" />
-
+<img src="https://github.com/imohamadnashaat/omnifood/blob/main/img/desktop-mobile-view.png" width="80%" />
